@@ -1,0 +1,60 @@
+body {
+    background-color: purple;
+}
+
+section {
+    padding: 30px;
+}
+
+#food {
+    background-color: darkkhaki;
+    grid-row: 1/3;
+}
+
+.favcolor {
+    background-color: darkmagenta;
+    color: bisque;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    /* max-width: 700px; */
+    border: solid 1px black;
+}
+
+.fireball {
+    color: red;
+    background-color: lightblue;
+    font-size: 25 px;
+    font-weight: 100;
+    grid-row: 1;
+}
+
+.fireball div {
+    background-color: blue;
+    color: lightgoldenrodyellow;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: solid black 1px;
+}
+
+.row1 {
+    grid-row: 1;
+    background-color: lightblue;
+    grid-column: 1/-1;
+}
+
+.row2 {
+    grid-row: 2;
+    border: solid black 1px;
+}
+
+.row3 {
+    grid-row: 3;
+    background-color: lightblue;
+    grid-column: 1/-1;
+}
