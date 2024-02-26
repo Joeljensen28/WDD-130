@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* header  */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 50px;
+}
+
+p {
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+}
+
+#name {
+    grid-column: 3/4;
+    font-size: .5em;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+/* body  */
+body {
+    background-color: #cfcfcf;
+    font-family: sans-serif;
+}
+
+.delta-card {
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    border-radius: 15px;
+    min-height: 400px;
+    max-height: 600px;
+    box-shadow: 1px 1px 5px;
+}
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 150px;
+    justify-items: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.destination {
+    background-color: #001b36;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: "REM", sans-serif;
+    height: 100px;
+}
+
+.time {
+    font-size: .35em;
+    justify-content: center;
+    color: gray;
+}
+
+.airport {
+    font-size: .35em;
+    justify-content: center;
+    color: gray;
+}
+
+.airport-code {
+    justify-content: center;
+    color: white;
+    margin: 5%;
+}
+
+.logo {
+    border-radius: 15px;
+}
+
+.center {
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    justify-content: center;
+    align-content: center;
+    font-size: .5em;
+    margin-bottom: 0px;
+}
+
+.details {
+    justify-content: center;
+    align-content: center;
+    margin-top: 0px;
+}
+
+.barcode {
+    justify-items: center;
+    align-items: center;
+    width: 70%;
+    padding-top: 5%;
+}
+
+/* footer */
+
+.footer {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 45px;
+}
+
+.thankyou {
+    font-size: .5em;
+    padding-bottom: 15px;
+    color: #c5c8cc;
+}
