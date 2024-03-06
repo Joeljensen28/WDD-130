@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+/* header content */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #E7C24F;
+    text-decoration: none;
+    padding: 35px;
+}
+
+body {
+    background-color: #E7C24F;
+    font-family: "Rock Salt", "Pacifico", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #396E94;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #847650;
+    color: black;
+}
+
+/* footer content */
+
+footer {
+    color: #E7C24F;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #396E94;
+}
+
+footer a {
+    color: #E7C24F;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #E7C24F;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/* main content */
+
+h1 {
+    text-align: center;
+    color: #396E94;
+}
+
+.info-box {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    max-width: 500px;
+}
+
+.salmon {
+    text-align: center;
+}
+
+.desolation {
+    text-align: center;
+}
+
+.image {
+    max-width: 750px;
+}
+
+.title {
+    margin-bottom: 0px;
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: #219EBC;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+.book {
+    color: #396E94;
+    background-color: #8ecae6;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.book:hover {
+    color: black;
+}
+
+.image {
+    border: 10px solid #396E94;
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .5s;
+}
+
+.image:hover {
+    opacity: .6;
+    transform: scale(1.008);
+}
