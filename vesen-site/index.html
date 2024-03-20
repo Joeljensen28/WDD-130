@@ -3,52 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home-page.css">
     <title>Vesen | Home</title>
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="logo" class="logo">
-        <nav>
-            <a href="index.html" class="nav">Home</a>
-            <a href="vesen-discography.html" class="nav">Vesen</a>
-            <a href="08breezy-discography.html" class="nav">08風</a>
-            <a href="" class="nav">All Music</a>
-            <a href="" class="nav">Physicals</a>
-            <a href="" class="nav">Contact</a>
-        </nav>
+        <div class="containter">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav>
+                <a href="index.html" class="nav">Home</a>
+                <a href="vesen-discography.html" class="nav">Vesen</a>
+                <a href="08breezy-discography.html" class="nav">08風</a>
+                <a href="" class="nav">All Music</a>
+                <a href="" class="nav">Physicals</a>
+                <a href="" class="nav">Contact</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="artist">
+        <div class="vesen">
             <h1 class="artist-name">VESEN</h1>
-            <a href="vesen-discography.html">
+            <a href="vesen-discography.html"  id="vesen-art">
                 <img src="images/vesen.jpeg" alt="vesen art" class="art">
             </a>
         </div>
-        <div class="artist">
+        <div class="breezy">
             <h1 class="artist-name">08風</h1>
-            <a href="08breezy-discography.html">
+            <a href="08breezy-discography.html" id="breezy-art">
                 <img src="images/08breezy.jpeg" alt="08風 art" class="art">
             </a>
         </div>
         <div class="about">
             <h3 class="about">About</h3>
-            <p>Vesen, formerly known as 08風, is an experimental electronic/acoustic ambient artist from the frozen deserts of the western United States. The earliest influences on Vesen's work can be traced back to the internet micro-genre known as dreampunk, with artists such as 2814, HKE, t e l e p a t h, Chungking Mansions, Remember, Facechain, and more serving as his inspiration. Initially attempting to imitate the dreamy, heavy, cyberpunk sound of 2814, he soon found his style and skillset more suited to a spiritual, emotionally charged sound that attempted to paint the beauties of the world around him and the psychological landscapes within. After years of exploring these landscapes, the artist made an official departure from his old "08風" alias and adopted the new "Vesen", signifying his migration from electronic-oriented ambeince into a world of equally ambient acoustic sounds. Norwegian for "being", "Vesen" maintains the same surreal approach, but opts for a more wholistic sound, employing a blend of natural string instruments and electronic synthesizers.</p>
+            <img src="images/about.jpeg" alt="primordia" class="about-art">
+            <p>Vesen, formerly known as 08風, is an experimental electronic/acoustic ambient artist from the frozen deserts of the western United States. The earliest influences on Vesen's work can be traced back to the internet micro-genre known as dreampunk, with artists such as 2814, HKE, t e l e p a t h, Chungking Mansions, Remember, Facechain, and more serving as his inspiration. Initially attempting to imitate the dreamy, heavy, cyberpunk sound of 2814, he soon found his style and skillset more suited to a spiritual, emotionally charged sound that attempted to paint the beauties of the world around him and the psychological landscapes within. After years of exploring these landscapes, the artist made an official departure from his old "08風" alias and adopted the new "Vesen", signifying his migration from electronic-oriented ambeince into a world of acoustic, yet equally ethereal, sounds. Norwegian for "being", "Vesen" maintains the same surreal approach, but opts for a more wholistic sound, employing a blend of natural string instruments and electronic synthesizers.</p>
         </div>
     </main>
     <footer>
-        <section class="contact">
-        <img src="images/vesen-footer.png" alt="vesen-footer">
-            <p>&#169; 2024, Vesen</p>
-            <a href="">Contact</a>
-            <a href="site-plan.html">Site Plan</a>
-        </section>
-        <section class="social">
-            <img src="images/insta.jpeg" alt="instagram">
-            <img src="images/spotify.jpeg" alt="spotify">
-            <img src="images/Apple_Music_logo.png" alt="apple music">
-            <img src="images/x.webp" alt="x">
-            <img src="images/soundcloud.jpeg" alt="soundcloud">
-        </section>
+        <div class="lunchbox">
+            <section class="contact">
+                <img src="images/vesen-footer.png" alt="vesen-footer">
+                <p class="footer-nav">&#169; 2024, Vesen</p>
+                <a href="" class="footer-nav">Contact</a>
+                <a href="site-plan.html" class="footer-nav">Site Plan</a>
+            </section>
+        </div>
+        <div class="tupperware">
+            <section class="social">
+                <img src="images/insta.jpeg" class="social-media" alt="instagram" id="insta">
+                <img src="images/spotify.jpeg" class="social-media" alt="spotify" id="spotify">
+                <img src="images/Apple_Music_logo.png" class="social-media" alt="apple music" id="apple">
+                <img src="images/x.webp" class="social-media" alt="x" id="x">
+                <img src="images/soundcloud.jpeg" class="social-media" alt="soundcloud" id="sc">
+            </section>
+        </div>
     </footer>
 </body>
 </html>
