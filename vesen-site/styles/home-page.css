@@ -2,6 +2,7 @@
 
 body {
     background-color: #032854;
+    background-image: url('background.jpeg');
     font-family: "Montserrat";
 }
 
@@ -42,7 +43,7 @@ a {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(10, 142.5px);
+    grid-template-rows: repeat(10, 142.5px) 50px;
 }
 
 .artist-name {
@@ -52,6 +53,27 @@ main {
 
 .art {
     width: 427.5px;
+    border: 5px solid #292d39;
+}
+
+#breezy-art {
+    box-shadow: 1px 1px 50px 1px white, -1px -1px 50px 1px white;
+    transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+#vesen-art {
+    box-shadow: 1px 1px 50px 1px white, -1px -1px 50px 1px white;
+    transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+#breezy-art:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 50px 10px white, -1px -1px 50px 10px white, 1px 1px 50px 1px yellow, -1px -1px 50px 1px yellow;
+}
+
+#vesen-art:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 50px 10px white, -1px -1px 50px 10px white, 1px 1px 50px 1px blue, -1px -1px 50px 1px blue;
 }
 
 .vesen {
@@ -68,11 +90,16 @@ main {
     grid-column: 4 / 8;
     text-align: center;
     grid-row: 6 / 9;
+    color: white;
+}
+
+.about h3 {
     color: #86878c;
 }
 
 .about-art {
     max-width: 285px;
+    border: 1px solid white;
 }
 
 footer {
