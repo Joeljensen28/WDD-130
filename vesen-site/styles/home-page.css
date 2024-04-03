@@ -94,12 +94,18 @@ main {
 }
 
 .about h3 {
+    text-align: center;
     color: #86878c;
 }
 
 .about-art {
+    text-align: center;
     max-width: 285px;
     border: 1px solid white;
+}
+
+.about div {
+    text-align: left;
 }
 
 footer {

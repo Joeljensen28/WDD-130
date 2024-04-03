@@ -70,8 +70,19 @@ main {
 
 .title {
     padding-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     color: white;
+}
+
+.desc {
+    margin-top: 35px;
+    font-size: .8em;
+    color: #86878c;
+}
+
+.white {
+    margin-top: 35px;
+    font-size: .8em;
 }
 
 /* footer css */
